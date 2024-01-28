@@ -8,6 +8,10 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 # Testing
-For the the testing of this project we are using two libraries, JEST and react-testing-library
+For the the testing of this project we are using two libraries, JEST and react-testing-library.
+
+JEST:
 We are using JEST for assertions in all the functions in the code described in this project.
-We are using react-testing-library to make test in the DOM side of this project.
+
+Testing Library
+We are using react-testing-library to make test in the DOM side to simulate interactions with components of this project.
