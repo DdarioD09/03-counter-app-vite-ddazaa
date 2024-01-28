@@ -7,6 +7,7 @@ describe('Tests on <DemoComponent/>', () => {
 
         // Act
         const message2 = message1.trim();
+        console.log("🚀 ~ test ~ message2:\n\n", message2);
 
         // Assert
         expect(message1).toBe(message2);

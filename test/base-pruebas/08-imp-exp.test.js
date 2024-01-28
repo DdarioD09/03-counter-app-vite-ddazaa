@@ -1,5 +1,5 @@
-import { getHeroeById, getHeroesByOwner } from "../base-pruebas/08-imp-exp";
-import heroes from "../data/heros";
+import { getHeroeById, getHeroesByOwner } from "../../src/base-pruebas/08-imp-exp";
+import heroes from "../../src/data/heros";
 
 describe('Tests at 08-imp-exp', () => {
     test('getHeroByIds should return hero by id', () => {
